@@ -39,7 +39,7 @@ To evaluate how **model size** impacts performance in sentiment classification a
 | **BERT**       | ~98.5%    | ~98.5%    | Baseline model              |
 | **DistilBERT** | ~98.4%    | ~98.4%    | Similar performance, faster |
 
-➡️ **DistilBERT achieved the same performance as BERT on small datasets while being faster and lighter.**  
+➡️ **DistilBERT achieved similar performance as BERT on small datasets while being faster and lighter.**  
 
 ---
 

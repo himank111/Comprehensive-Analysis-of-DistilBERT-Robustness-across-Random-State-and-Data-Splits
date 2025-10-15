@@ -41,6 +41,20 @@ To evaluate how **model size** impacts performance in sentiment classification a
 
 ➡️ **DistilBERT achieved similar performance as BERT on small datasets while being faster and lighter.**  
 
+## 🔁 Robustness Analysis  
+
+The robustness analysis evaluates **DistilBERT** across multiple **train-test splits** and **random states** to verify consistency in performance.
+
+| Split Ratio | Random State | Accuracy | F1 Score |
+| ----------- | ------------ | -------- | -------- |
+| **80/20**   | 42           | 0.9845   | 0.9843   |
+| **80/20**   | None         | 0.9854   | 0.9852   |
+| **70/30**   | 42           | 0.9850   | 0.9848   |
+| **60/40**   | 42           | 0.9850   | 0.9849   |
+
+✅ **Observation:** DistilBERT maintained stable accuracy and F1 across all configurations, confirming its robustness on small datasets.
+
+
 ---
 
 ## 📈 Observations  
